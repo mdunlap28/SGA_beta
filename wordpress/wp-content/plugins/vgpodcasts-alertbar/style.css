@@ -1,0 +1,39 @@
+#alertbarContainer {
+    height: auto;
+    margin: 0;
+    padding: 0;
+ 	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index: 100000; /* Display over the Wordpress admin bar, feel free to remove this if you use the adminbar and would prefer that it be on top */
+}
+
+#alertbarContainerAdmin {
+	margin: 0 auto;
+}
+
+div.alertbar {
+	padding: 10px; 
+	height: 20px;
+}
+
+div.alertbar p {
+	font-family: Verdana, sans-serif;;
+	font-size: 16px; 		
+	margin:0;
+	padding:0;
+}
+
+div.alertbar a {
+	text-decoration:none;
+}
+
+div.alertbar a:hover {
+	color:#eee;
+	text-decoration: underline
+}
+
+div.alertbar a:hover:after {
+	content: " \00a0 \2192"
+}

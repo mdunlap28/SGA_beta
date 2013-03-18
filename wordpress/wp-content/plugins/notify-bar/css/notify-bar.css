@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+#mbj-notify-bar-wrapper {width:100%; margin-top:0; padding:12px 0 5px 0; display:none;}
+#mbj-notify-bar {margin:0 auto; border:0; width:82%;}
+#mbj-notify-bar h2 {padding:7px 0 7px 0; text-align:left; font-size:1.3em; color:#000;}
+#mbj-notify-bar p {padding:0 0 7px 0; text-align:left; font-size:.9em; line-height:120%; color:#000;}
+#mbj-notify-bar div {margin:0; padding:0; text-align:left;}
+#mbj-notify-bar p#hide {margin:7px 0 5px; padding:0; font-size:.8em; text-align:right; }

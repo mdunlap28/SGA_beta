@@ -1,0 +1,5 @@
+Language: Spanish (es_ES)
+Author: n/a
+Version: 1.0
+Release Date: n/a
+
